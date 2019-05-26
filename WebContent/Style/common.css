@@ -1,0 +1,59 @@
+@charset "utf-8";
+html,body,ul,li,p,h1,h2,h3,form,img {
+	margin: 0;
+	padding: 0;
+}
+html{
+	color: #000;
+}
+img{
+	border: none;
+}
+ol,ul {
+	list-style: none;
+}
+input {
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 0;
+}
+a {
+	text-decoration: none;
+}
+body{
+	font: normal normal 12px "新宋体";
+	color: #4c4c4c;
+	background-color: #fff;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+em,strong,b,u,i{
+	font-style: normal;
+	font-weight: normal;
+}
+input,textarea,select{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	*font-size: 100%;
+}
+.fl {
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after {
+	content:"";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+
