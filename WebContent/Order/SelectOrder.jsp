@@ -32,7 +32,7 @@
 							<td>购买数量</td>
 						</tr>
 
-						<c:forEach items="${lits.it}" var="it">
+						<c:forEach items="${lits.it}"  var="it">
 							<tr>
 								<td>${it.name}</td>
 								<td>${it.price}</td>
