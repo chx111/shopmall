@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 
 public class BaseDao { 
 	private String driver = "com.mysql.jdbc.Driver";
-	private String url="jdbc:mysql://localhost:3306/estoresystem?userUnicode=true&characterEncoding=utf-8";
+	private String url="jdbc:mysql://localhost:3306/shop?userUnicode=true&characterEncoding=utf-8";
 	public Connection getConnection(){
 		Connection con=null;
 		try {
@@ -50,10 +50,10 @@ public class BaseDao {
 		
 		res=ps.executeUpdate();
 		if(res>0){
-			System.out.println("�ɹ�");
+			System.out.println("³É¹¦");
 			return true;
 		}else{
-			System.out.println("ʧ��");
+			System.out.println("Ê§°Ü");
 			return false;
 		}
 		
